@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F9621FDA1DAE542300F7B5F9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9621FD91DAE542300F7B5F9 /* main.m */; };
-		F9621FDD1DAE542300F7B5F9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F9621FDC1DAE542300F7B5F9 /* AppDelegate.m */; };
-		F9621FE01DAE542300F7B5F9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F9621FDF1DAE542300F7B5F9 /* ViewController.m */; };
+		F90C350E1DAEA3CD0014DA94 /* TFHomePageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F90C34E71DAEA3CD0014DA94 /* TFHomePageViewController.m */; };
+		F90C350F1DAEA3CD0014DA94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F90C34EB1DAEA3CD0014DA94 /* AppDelegate.m */; };
+		F90C35101DAEA3CD0014DA94 /* UIBarButtonItem+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F90C34EE1DAEA3CD0014DA94 /* UIBarButtonItem+TFExtension.m */; };
+		F90C35111DAEA3CD0014DA94 /* UIView+TFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F90C34F01DAEA3CD0014DA94 /* UIView+TFExtension.m */; };
+		F90C35121DAEA3CD0014DA94 /* TFNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F90C34F31DAEA3CD0014DA94 /* TFNavigationController.m */; };
+		F90C35131DAEA3CD0014DA94 /* TFTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F90C34F51DAEA3CD0014DA94 /* TFTabBarController.m */; };
+		F90C35141DAEA3CD0014DA94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F90C34F61DAEA3CD0014DA94 /* main.m */; };
+		F90C35151DAEA3CD0014DA94 /* TFVerticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = F90C34FB1DAEA3CD0014DA94 /* TFVerticalButton.m */; };
+		F90C35161DAEA3CD0014DA94 /* TFPersonalCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F90C34FF1DAEA3CD0014DA94 /* TFPersonalCenterViewController.m */; };
+		F90C35171DAEA3CD0014DA94 /* TFShoppingCartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F90C35051DAEA3CD0014DA94 /* TFShoppingCartViewController.m */; };
+		F90C35181DAEA3CD0014DA94 /* TFSurpriseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F90C350B1DAEA3CD0014DA94 /* TFSurpriseViewController.m */; };
 		F9621FE31DAE542300F7B5F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9621FE11DAE542300F7B5F9 /* Main.storyboard */; };
 		F9621FE51DAE542300F7B5F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9621FE41DAE542300F7B5F9 /* Assets.xcassets */; };
 		F9621FE81DAE542300F7B5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9621FE61DAE542300F7B5F9 /* LaunchScreen.storyboard */; };
 		F9621FF31DAE542300F7B5F9 /* DonkeyMallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9621FF21DAE542300F7B5F9 /* DonkeyMallTests.m */; };
 		F9621FFE1DAE542300F7B5F9 /* DonkeyMallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9621FFD1DAE542300F7B5F9 /* DonkeyMallUITests.m */; };
-		FC53A93292168EA4F56BBEED /* libPods-DonkeyMall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9809E780C8F76C30D2D36797 /* libPods-DonkeyMall.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,15 +43,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3EF2D8B937E9D6E3263E4F61 /* Pods-DonkeyMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonkeyMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DonkeyMall/Pods-DonkeyMall.debug.xcconfig"; sourceTree = "<group>"; };
-		9809E780C8F76C30D2D36797 /* libPods-DonkeyMall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DonkeyMall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB71192E1F5ECAFFA4AA524E /* Pods-DonkeyMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonkeyMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-DonkeyMall/Pods-DonkeyMall.release.xcconfig"; sourceTree = "<group>"; };
+		F90C34E61DAEA3CD0014DA94 /* TFHomePageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFHomePageViewController.h; path = ../TFHomePageViewController.h; sourceTree = "<group>"; };
+		F90C34E71DAEA3CD0014DA94 /* TFHomePageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFHomePageViewController.m; path = ../TFHomePageViewController.m; sourceTree = "<group>"; };
+		F90C34EA1DAEA3CD0014DA94 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F90C34EB1DAEA3CD0014DA94 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F90C34ED1DAEA3CD0014DA94 /* UIBarButtonItem+TFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+TFExtension.h"; sourceTree = "<group>"; };
+		F90C34EE1DAEA3CD0014DA94 /* UIBarButtonItem+TFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+TFExtension.m"; sourceTree = "<group>"; };
+		F90C34EF1DAEA3CD0014DA94 /* UIView+TFExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TFExtension.h"; sourceTree = "<group>"; };
+		F90C34F01DAEA3CD0014DA94 /* UIView+TFExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TFExtension.m"; sourceTree = "<group>"; };
+		F90C34F21DAEA3CD0014DA94 /* TFNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFNavigationController.h; sourceTree = "<group>"; };
+		F90C34F31DAEA3CD0014DA94 /* TFNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFNavigationController.m; sourceTree = "<group>"; };
+		F90C34F41DAEA3CD0014DA94 /* TFTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFTabBarController.h; sourceTree = "<group>"; };
+		F90C34F51DAEA3CD0014DA94 /* TFTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFTabBarController.m; sourceTree = "<group>"; };
+		F90C34F61DAEA3CD0014DA94 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F90C34F81DAEA3CD0014DA94 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F90C34FA1DAEA3CD0014DA94 /* TFVerticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFVerticalButton.h; sourceTree = "<group>"; };
+		F90C34FB1DAEA3CD0014DA94 /* TFVerticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFVerticalButton.m; sourceTree = "<group>"; };
+		F90C34FE1DAEA3CD0014DA94 /* TFPersonalCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFPersonalCenterViewController.h; sourceTree = "<group>"; };
+		F90C34FF1DAEA3CD0014DA94 /* TFPersonalCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFPersonalCenterViewController.m; sourceTree = "<group>"; };
+		F90C35041DAEA3CD0014DA94 /* TFShoppingCartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFShoppingCartViewController.h; sourceTree = "<group>"; };
+		F90C35051DAEA3CD0014DA94 /* TFShoppingCartViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFShoppingCartViewController.m; sourceTree = "<group>"; };
+		F90C350A1DAEA3CD0014DA94 /* TFSurpriseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFSurpriseViewController.h; sourceTree = "<group>"; };
+		F90C350B1DAEA3CD0014DA94 /* TFSurpriseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFSurpriseViewController.m; sourceTree = "<group>"; };
 		F9621FD51DAE542300F7B5F9 /* DonkeyMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonkeyMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F9621FD91DAE542300F7B5F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		F9621FDB1DAE542300F7B5F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		F9621FDC1DAE542300F7B5F9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		F9621FDE1DAE542300F7B5F9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		F9621FDF1DAE542300F7B5F9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F9621FE21DAE542300F7B5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F9621FE41DAE542300F7B5F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9621FE71DAE542300F7B5F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -62,7 +83,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC53A93292168EA4F56BBEED /* libPods-DonkeyMall.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,21 +103,201 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2281894E397EFD5E7D460AA9 /* Frameworks */ = {
+		F90C34E21DAEA3CD0014DA94 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				9809E780C8F76C30D2D36797 /* libPods-DonkeyMall.a */,
+				F90C34E31DAEA3CD0014DA94 /* HomePage */,
+				F90C34E91DAEA3CD0014DA94 /* Other */,
+				F90C34FC1DAEA3CD0014DA94 /* PersonalCenter */,
+				F90C35021DAEA3CD0014DA94 /* ShoppingCart */,
+				F90C35081DAEA3CD0014DA94 /* Surprise */,
 			);
-			name = Frameworks;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		F85946E2AF917F1925D23D32 /* Pods */ = {
+		F90C34E31DAEA3CD0014DA94 /* HomePage */ = {
 			isa = PBXGroup;
 			children = (
-				3EF2D8B937E9D6E3263E4F61 /* Pods-DonkeyMall.debug.xcconfig */,
-				DB71192E1F5ECAFFA4AA524E /* Pods-DonkeyMall.release.xcconfig */,
+				F90C34E41DAEA3CD0014DA94 /* Controller */,
+				F90C34E51DAEA3CD0014DA94 /* Model */,
+				F90C34E81DAEA3CD0014DA94 /* View */,
 			);
-			name = Pods;
+			path = HomePage;
+			sourceTree = "<group>";
+		};
+		F90C34E41DAEA3CD0014DA94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F90C34E61DAEA3CD0014DA94 /* TFHomePageViewController.h */,
+				F90C34E71DAEA3CD0014DA94 /* TFHomePageViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F90C34E51DAEA3CD0014DA94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F90C34E81DAEA3CD0014DA94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F90C34E91DAEA3CD0014DA94 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				F90C34EC1DAEA3CD0014DA94 /* Categories */,
+				F90C34F11DAEA3CD0014DA94 /* Controller */,
+				F90C34F71DAEA3CD0014DA94 /* Model */,
+				F90C34F91DAEA3CD0014DA94 /* View */,
+				F90C34EA1DAEA3CD0014DA94 /* AppDelegate.h */,
+				F90C34EB1DAEA3CD0014DA94 /* AppDelegate.m */,
+				F90C34F61DAEA3CD0014DA94 /* main.m */,
+				F90C34F81DAEA3CD0014DA94 /* PrefixHeader.pch */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		F90C34EC1DAEA3CD0014DA94 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				F90C34ED1DAEA3CD0014DA94 /* UIBarButtonItem+TFExtension.h */,
+				F90C34EE1DAEA3CD0014DA94 /* UIBarButtonItem+TFExtension.m */,
+				F90C34EF1DAEA3CD0014DA94 /* UIView+TFExtension.h */,
+				F90C34F01DAEA3CD0014DA94 /* UIView+TFExtension.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		F90C34F11DAEA3CD0014DA94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F90C34F21DAEA3CD0014DA94 /* TFNavigationController.h */,
+				F90C34F31DAEA3CD0014DA94 /* TFNavigationController.m */,
+				F90C34F41DAEA3CD0014DA94 /* TFTabBarController.h */,
+				F90C34F51DAEA3CD0014DA94 /* TFTabBarController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F90C34F71DAEA3CD0014DA94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F90C34F91DAEA3CD0014DA94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F90C34FA1DAEA3CD0014DA94 /* TFVerticalButton.h */,
+				F90C34FB1DAEA3CD0014DA94 /* TFVerticalButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F90C34FC1DAEA3CD0014DA94 /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				F90C34FD1DAEA3CD0014DA94 /* Controller */,
+				F90C35001DAEA3CD0014DA94 /* Model */,
+				F90C35011DAEA3CD0014DA94 /* View */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		F90C34FD1DAEA3CD0014DA94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F90C34FE1DAEA3CD0014DA94 /* TFPersonalCenterViewController.h */,
+				F90C34FF1DAEA3CD0014DA94 /* TFPersonalCenterViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F90C35001DAEA3CD0014DA94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F90C35011DAEA3CD0014DA94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F90C35021DAEA3CD0014DA94 /* ShoppingCart */ = {
+			isa = PBXGroup;
+			children = (
+				F90C35031DAEA3CD0014DA94 /* Controller */,
+				F90C35061DAEA3CD0014DA94 /* Model */,
+				F90C35071DAEA3CD0014DA94 /* View */,
+			);
+			path = ShoppingCart;
+			sourceTree = "<group>";
+		};
+		F90C35031DAEA3CD0014DA94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F90C35041DAEA3CD0014DA94 /* TFShoppingCartViewController.h */,
+				F90C35051DAEA3CD0014DA94 /* TFShoppingCartViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F90C35061DAEA3CD0014DA94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F90C35071DAEA3CD0014DA94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F90C35081DAEA3CD0014DA94 /* Surprise */ = {
+			isa = PBXGroup;
+			children = (
+				F90C35091DAEA3CD0014DA94 /* Controller */,
+				F90C350C1DAEA3CD0014DA94 /* Model */,
+				F90C350D1DAEA3CD0014DA94 /* View */,
+			);
+			path = Surprise;
+			sourceTree = "<group>";
+		};
+		F90C35091DAEA3CD0014DA94 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F90C350A1DAEA3CD0014DA94 /* TFSurpriseViewController.h */,
+				F90C350B1DAEA3CD0014DA94 /* TFSurpriseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		F90C350C1DAEA3CD0014DA94 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F90C350D1DAEA3CD0014DA94 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		F9621FCC1DAE542300F7B5F9 = {
@@ -107,8 +307,6 @@
 				F9621FF11DAE542300F7B5F9 /* DonkeyMallTests */,
 				F9621FFC1DAE542300F7B5F9 /* DonkeyMallUITests */,
 				F9621FD61DAE542300F7B5F9 /* Products */,
-				F85946E2AF917F1925D23D32 /* Pods */,
-				2281894E397EFD5E7D460AA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,10 +323,7 @@
 		F9621FD71DAE542300F7B5F9 /* DonkeyMall */ = {
 			isa = PBXGroup;
 			children = (
-				F9621FDB1DAE542300F7B5F9 /* AppDelegate.h */,
-				F9621FDC1DAE542300F7B5F9 /* AppDelegate.m */,
-				F9621FDE1DAE542300F7B5F9 /* ViewController.h */,
-				F9621FDF1DAE542300F7B5F9 /* ViewController.m */,
+				F90C34E21DAEA3CD0014DA94 /* Classes */,
 				F9621FE41DAE542300F7B5F9 /* Assets.xcassets */,
 				F9621FD81DAE542300F7B5F9 /* Supporting Files */,
 			);
@@ -141,7 +336,6 @@
 				F9621FE61DAE542300F7B5F9 /* LaunchScreen.storyboard */,
 				F9621FE11DAE542300F7B5F9 /* Main.storyboard */,
 				F9621FE91DAE542300F7B5F9 /* Info.plist */,
-				F9621FD91DAE542300F7B5F9 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -345,9 +539,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9621FE01DAE542300F7B5F9 /* ViewController.m in Sources */,
-				F9621FDD1DAE542300F7B5F9 /* AppDelegate.m in Sources */,
-				F9621FDA1DAE542300F7B5F9 /* main.m in Sources */,
+				F90C35141DAEA3CD0014DA94 /* main.m in Sources */,
+				F90C350E1DAEA3CD0014DA94 /* TFHomePageViewController.m in Sources */,
+				F90C35121DAEA3CD0014DA94 /* TFNavigationController.m in Sources */,
+				F90C35111DAEA3CD0014DA94 /* UIView+TFExtension.m in Sources */,
+				F90C35151DAEA3CD0014DA94 /* TFVerticalButton.m in Sources */,
+				F90C35131DAEA3CD0014DA94 /* TFTabBarController.m in Sources */,
+				F90C35101DAEA3CD0014DA94 /* UIBarButtonItem+TFExtension.m in Sources */,
+				F90C35171DAEA3CD0014DA94 /* TFShoppingCartViewController.m in Sources */,
+				F90C35181DAEA3CD0014DA94 /* TFSurpriseViewController.m in Sources */,
+				F90C35161DAEA3CD0014DA94 /* TFPersonalCenterViewController.m in Sources */,
+				F90C350F1DAEA3CD0014DA94 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,9 +690,9 @@
 		};
 		F96220031DAE542300F7B5F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3EF2D8B937E9D6E3263E4F61 /* Pods-DonkeyMall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = DonkeyMall/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = DonkeyMall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.taofei.DonkeyMall;
@@ -500,9 +702,9 @@
 		};
 		F96220041DAE542300F7B5F9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DB71192E1F5ECAFFA4AA524E /* Pods-DonkeyMall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = DonkeyMall/Classes/Other/PrefixHeader.pch;
 				INFOPLIST_FILE = DonkeyMall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = me.taofei.DonkeyMall;

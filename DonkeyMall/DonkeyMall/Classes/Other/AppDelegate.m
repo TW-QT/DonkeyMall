@@ -1,12 +1,13 @@
 //
 //  AppDelegate.m
-//  DonkeyMall
+//  301.菜市场
 //
-//  Created by 陶飞 on 16/10/12.
+//  Created by 陶飞 on 16/9/25.
 //  Copyright © 2016年 TaoFei. All rights reserved.
 //
 
 #import "AppDelegate.h"
+#import "TFTabBarController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //1.创建一个Window
+    UIWindow *window=[[UIWindow alloc]init];
+    
+    
+    //2.设置Window的根控制器
+    TFTabBarController *tabBarController=[[TFTabBarController alloc]init];
+    window.rootViewController=tabBarController;
+    self.window=window;
+    
+    
+    //3.显示Window
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 
