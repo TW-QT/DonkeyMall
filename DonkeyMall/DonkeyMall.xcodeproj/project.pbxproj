@@ -15,6 +15,7 @@
 		F9621FE81DAE542300F7B5F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9621FE61DAE542300F7B5F9 /* LaunchScreen.storyboard */; };
 		F9621FF31DAE542300F7B5F9 /* DonkeyMallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9621FF21DAE542300F7B5F9 /* DonkeyMallTests.m */; };
 		F9621FFE1DAE542300F7B5F9 /* DonkeyMallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F9621FFD1DAE542300F7B5F9 /* DonkeyMallUITests.m */; };
+		FC53A93292168EA4F56BBEED /* libPods-DonkeyMall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9809E780C8F76C30D2D36797 /* libPods-DonkeyMall.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3EF2D8B937E9D6E3263E4F61 /* Pods-DonkeyMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonkeyMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DonkeyMall/Pods-DonkeyMall.debug.xcconfig"; sourceTree = "<group>"; };
+		9809E780C8F76C30D2D36797 /* libPods-DonkeyMall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DonkeyMall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB71192E1F5ECAFFA4AA524E /* Pods-DonkeyMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DonkeyMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-DonkeyMall/Pods-DonkeyMall.release.xcconfig"; sourceTree = "<group>"; };
 		F9621FD51DAE542300F7B5F9 /* DonkeyMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonkeyMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9621FD91DAE542300F7B5F9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9621FDB1DAE542300F7B5F9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC53A93292168EA4F56BBEED /* libPods-DonkeyMall.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2281894E397EFD5E7D460AA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9809E780C8F76C30D2D36797 /* libPods-DonkeyMall.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F85946E2AF917F1925D23D32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EF2D8B937E9D6E3263E4F61 /* Pods-DonkeyMall.debug.xcconfig */,
+				DB71192E1F5ECAFFA4AA524E /* Pods-DonkeyMall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F9621FCC1DAE542300F7B5F9 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +107,8 @@
 				F9621FF11DAE542300F7B5F9 /* DonkeyMallTests */,
 				F9621FFC1DAE542300F7B5F9 /* DonkeyMallUITests */,
 				F9621FD61DAE542300F7B5F9 /* Products */,
+				F85946E2AF917F1925D23D32 /* Pods */,
+				2281894E397EFD5E7D460AA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F96220021DAE542300F7B5F9 /* Build configuration list for PBXNativeTarget "DonkeyMall" */;
 			buildPhases = (
+				563A509CEA5CB064D1724078 /* 📦 Check Pods Manifest.lock */,
 				F9621FD11DAE542300F7B5F9 /* Sources */,
 				F9621FD21DAE542300F7B5F9 /* Frameworks */,
 				F9621FD31DAE542300F7B5F9 /* Resources */,
+				013728A2AEF7FC1075BBCEBE /* 📦 Embed Pods Frameworks */,
+				4374BD10B717AC4B6F540333 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +291,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		013728A2AEF7FC1075BBCEBE /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonkeyMall/Pods-DonkeyMall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4374BD10B717AC4B6F540333 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DonkeyMall/Pods-DonkeyMall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		563A509CEA5CB064D1724078 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F9621FD11DAE542300F7B5F9 /* Sources */ = {
@@ -413,6 +488,7 @@
 		};
 		F96220031DAE542300F7B5F9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EF2D8B937E9D6E3263E4F61 /* Pods-DonkeyMall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DonkeyMall/Info.plist;
@@ -424,6 +500,7 @@
 		};
 		F96220041DAE542300F7B5F9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DB71192E1F5ECAFFA4AA524E /* Pods-DonkeyMall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DonkeyMall/Info.plist;
@@ -498,6 +575,7 @@
 				F96220041DAE542300F7B5F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F96220051DAE542300F7B5F9 /* Build configuration list for PBXNativeTarget "DonkeyMallTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +584,7 @@
 				F96220071DAE542300F7B5F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F96220081DAE542300F7B5F9 /* Build configuration list for PBXNativeTarget "DonkeyMallUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +593,7 @@
 				F962200A1DAE542300F7B5F9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
